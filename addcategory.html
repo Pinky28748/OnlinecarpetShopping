@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+ body{
+  background-image:url("Categoryadd.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 350%;
+  }
+        h1 {
+            color: black;
+            text-align: center;
+	    font-size: 50px;
+        }
+
+input[type=submit] {
+  background-color: black;
+  border-width: thin;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+td{
+  color: black;
+  text-align: left;
+  font-size: 30px;
+}
+ 
+
+    </style>
+</head>
+<body>
+<h1>Category</h1>
+<form action="categoryadd.jsp" method=post >
+<table align="center">
+<tr><td>Enter Category Id:</td><td><input type=text name=cid required></td></tr>
+<tr><td>Enter Category name:</td><td><input type=text name=catname required></td></tr>
+<tr><td><input type=submit value=Add></td></tr>
+</table>
+</form>
+
+</body>
+</html>
